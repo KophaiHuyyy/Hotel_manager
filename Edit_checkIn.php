@@ -173,7 +173,7 @@ color: #fff;
                     <a class="navbar-brand" href="#">Edit Check-in</a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php">Trang Chủ</a>
+                            <a class="nav-link" href="index.html">Trang Chủ</a>
                         </li>
                         <!-- Add more navigation items as needed -->
 </ul>

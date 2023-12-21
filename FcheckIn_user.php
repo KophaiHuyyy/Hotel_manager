@@ -59,7 +59,7 @@
                                 <div class="col-md-4">
                                     <form id="filter" class="row g-2">
                                         <div class="col-12">
-                                            <label for="category" class="form-label">Loại</label>
+                                            <label for="category" class="form-label" style="color: #fff;">Loại</label>
                                             <select class="form-select" name="category_id">
                                                 <option value="all" <?php echo isset($_GET['category_id']) && $_GET['category_id'] == 'all' ? 'selected' : '' ?>>All</option>
                                                 <?php

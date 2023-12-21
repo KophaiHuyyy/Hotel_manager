@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Kiểm tra loại người dùng hoặc quyền hạn
         if ($user['type'] == '1') {
             // Đăng nhập thành công cho admin, chuyển hướng sang trang admin
-            header("Location: index.php");
+            header("Location: index.html");
             exit();
         } elseif ($user['type'] == '2') {
             // Đăng nhập thành công cho user, chuyển hướng sang trang user

@@ -1,5 +1,5 @@
 <?php
-require('C:/xampp/htdocs/PHP/QLKhachsan/vendor/setasign/fpdf/fpdf.php');
+require('C:/Users/Quang Huy/Documents/HelloPHP/QLKhachsan/vendor/setasign/fpdf/fpdf.php');
 
 // Check if the ID parameter is set in the URL
 if (isset($_GET['id'])) {
